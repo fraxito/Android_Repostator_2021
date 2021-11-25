@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10pt"
+    android:layout_weight="1"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE5E5"
+    android:orientation="vertical"
+    tools:context=".Repostaje">
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fecha"
+        android:layout_weight="1"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false" ></DatePicker>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/black"/>
+
+    <EditText
+        android:id="@+id/kilometros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:hint="Kilómetros"
+        android:inputType="number"
+        android:textSize="30sp"
+        android:imeOptions="actionNext" />
+
+
+    <EditText
+        android:id="@+id/litros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:hint="Litros"
+        android:inputType="numberDecimal"
+        android:textSize="30sp"
+        android:imeOptions="actionNext" />
+
+
+    <EditText
+        android:id="@+id/precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:hint="precio"
+        android:inputType="numberDecimal"
+        android:textSize="30sp"
+        android:imeOptions="actionNext" />
+</LinearLayout>
+
+</FrameLayout>
