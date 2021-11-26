@@ -65,9 +65,9 @@ public class MainActivity extends AppCompatActivity {
             kilometros = sp.getString("kilometros_"+i, "0");
             litros = sp.getString("litros_"+i, "0");
             costeTotal = Double.valueOf(precio) * Double.valueOf(litros);
-            dia = sp.getString("dia_"+i, "0");
-            mes = sp.getString("mes_"+i, "0");
-            year = sp.getString("year_"+i, "0");
+            dia = String.valueOf(sp.getInt("dia_"+i, 0));
+            mes = String.valueOf(sp.getInt("mes_"+i, 0));
+            year = String.valueOf(sp.getInt("year_"+i, 0));
 
             listadoRepostajes.add(kilometros + " Km " + litros
                     + " L " + precio + " €/L coste: " +

@@ -61,6 +61,17 @@
         android:inputType="numberDecimal"
         android:textSize="30sp"
         android:imeOptions="actionDone" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/botonGuardar"
+        android:layout_weight="1"
+        android:text="GUARDAR"/>
+
 </LinearLayout>
 
 </FrameLayout>
