@@ -57,10 +57,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
-        android:hint="precio"
+        android:hint="precio / litro"
         android:inputType="numberDecimal"
         android:textSize="30sp"
-        android:imeOptions="actionNext" />
+        android:imeOptions="actionDone" />
 </LinearLayout>
 
 </FrameLayout>
